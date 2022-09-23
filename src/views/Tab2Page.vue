@@ -40,7 +40,7 @@ export default defineComponent({
     let users = ref([])
     let name = ref('')
     let score = ref(0)
-
+//test
     const addUser = () => {
       users.value.push({
         name: name.value,
